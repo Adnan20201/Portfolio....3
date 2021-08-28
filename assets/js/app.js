@@ -40,22 +40,19 @@ $(function () {
     $(".gallery-filter-container").filterizr();
 
     //Slider
-    $('. blog-slider').slick({
+    $('.slider-blog').slick({
         prevArrow:'<i class="fas fa-chevron-left banner-arrow1 left "></i>',
         nextArrow:'<i class="fas fa-chevron-right banner-arrow1 right"></i>',
-        slidesToShow:2,
+        slidesToShow:3,
         slidesToScroll: 1, 
         autoplay:true,
         autoplaySpeed:500,
-        arrows: true,
+        arrows: false,
         fade:true,
         dots: true,
         cssEase:'linear',
     });
 
 
-    $('.blog-slider').slick({
-        
-      });
     
 })
