@@ -51,21 +51,22 @@
     <section id="header">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-3">
+                <div class="col-lg-2">
                    <div class="header-left">
                       <div class="logo">
                          <img src="assets/images/logo/logo.png" alt="">
                       </div>
                    </div>
                 </div>
-                <div class="col-lg-9">
+                <div class="col-lg-10">
                     <div class="header-right justify-content-center">
-                         <nav class="mainmenunav d-lg-block">
+                         <nav class="mainmenunav d-lg-block d-none">
                                <ul class="mainmenu">
                                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>  
                                    <li class="nav-item"><a class="nav-link" href="#service">Service</a></li>
                                    <li class="nav-item"><a class="nav-link" href="#abou">About</a></li>
                                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                                   <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
                                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
                                    <li class="nav-item"><a class="nav-link" href="#testimon">Testimonial</a></li>
                                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
@@ -84,7 +85,7 @@
                     <div class="col-lg-12">
                         <div class="inner text-center">
                             <h1 class="title">CREATIVE</h1>
-                            <p class="description">
+                            <p class="description d-lg-block d-none">
                                 There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration. 
                             </p>
                             <div class="slide-btn">
@@ -302,6 +303,7 @@
                   </div>
               </div>
           </div>
+
            <div class=" row single-portfolio-info">
                <div class="portfolio-slider">
                   <div class="col-lg-3 col-md-6 col-sm-6 col-12">
@@ -329,7 +331,7 @@
                                       </div>
                                    </div>
                                 </div>
-                       </div>
+                         </div>
                   </div>    
 
                   <div class="col-lg-3 col-md-6 col-sm-6 col-12">
@@ -425,39 +427,27 @@
 
 
   <!---==Filterzr Start==--->
-  <div class="rn-gallery">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="section-title text-start">
-                <h2 class="title">Our Portfolio</h2>
-                <p>
-                    There are many variations of passages of Lorem Ipsum available, <br /> but the
-                     majority have suffered alteration.
-                </p>
-            </div>
-          </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-12">
-            <div class="gallery-content text-center">
-                <div class="gallery-menu">
-                    <ul>
-                        <li data-filter="all project">All Project</li>
-                        <li data-filter="web design"> Web Design</li>
-                        <li data-filter="logo design">Logo Design</li>
-                        <li data-filter="mobile app">Mobile App</li>
-                    </ul>
-                </div>
-            </div>
+<div class="rn-gallery">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2 class="title">Our Gallery</h2>
+            <p>
+                There are many variations of passages of Lorem Ipsum available, <br /> but the
+                 majority have suffered alteration.
+            </p>
         </div>
-      </div>
 
-        <div class="gallery-item">
-            <div class="row gallery-filter ">
-              <div class="gallery-item col-lg-4">
-                <div class="gallery-element" data-category="1" >
+        <div class="gallery-filter-section">
+            <div class="gallery-filter-menu text-center">
+                <ul>
+                    <li class="active" data-filter="all project">All Project</li>
+                    <li data-filter="web design"> Web Design</li>
+                    <li data-filter="logo design">Logo Design</li>
+                    <li data-filter="mobile app">Mobile App</li>
+                </ul>
+            </div>
+            <div class="row gallery-filter-container">
+                <div class="gallery-filter-item filtr-item col-lg-4 col-md-6 col-12 " data-category="Logo Design,Mobile App, Web Design,All Project"> 
                     <div class="thumbnail-inner">
                         <div class="thumbnail">
                            <img src="assets/images/portfolio/dp-portfolio-01.jpg" alt="Portfolio Images">
@@ -469,29 +459,231 @@
                           <h4>The service provide for designer</h4>
                        </div>
                    </div>
-                </div>  
-
-                  <div class="gallery-element" data-category="1" >
-                     <div class="thumbnail-inner ">
-                       <div class="thumbnail">
+                </div>
+                <div class="gallery-filter-item filtr-item col-lg-4 col-md-6 col-12" data-category=" All Project, Web Design, Logo Design,Mobile App">
+                    <div class="thumbnail-inner">
+                        <div class="thumbnail">
                            <img src="assets/images/portfolio/dp-portfolio-02.jpg" alt="Portfolio Images">
                        </div>
-                     </div>
-                     <div class="content">
-                        <div class="inner">
-                            <p>App Development</p>
-                            <h4>The service provide for designer</h4>
-                        </div>
-                     </div>
-                  </div> 
-
+                   </div>
+                    <div class="content">
+                       <div class="inner">
+                          <p>App Development</p>
+                          <h4>The service provide for designer</h4>
+                       </div>
+                   </div>
+                </div>
+                <div class="gallery-filter-item filtr-item col-lg-4 col-md-6 col-12" data-category="Logo Design,Mobile App, Web Design ">
+                    <div class="thumbnail-inner">
+                        <div class="thumbnail">
+                           <img src="assets/images/portfolio/dp-portfolio-03.jpg" alt="Portfolio Images">
+                       </div>
+                   </div>
+                    <div class="content">
+                       <div class="inner">
+                          <p>App Development</p>
+                          <h4>The service provide for designer</h4>
+                       </div>
+                   </div>
+                </div>
+                <div class="gallery-filter-item filtr-item col-lg-4 col-md-6 col-12" data-category="Mobile App, Web Design,All Project">
+                    <div class="thumbnail-inner">
+                        <div class="thumbnail">
+                           <img src="assets/images/portfolio/dp-portfolio-04.jpg" alt="Portfolio Images">
+                       </div>
+                   </div>
+                    <div class="content">
+                       <div class="inner">
+                          <p>App Development</p>
+                          <h4>The service provide for designer</h4>
+                       </div>
+                   </div>
+                </div>
+                <div class="gallery-filter-item filtr-item col-lg-4 col-md-6 col-12" data-category="Web Design, Logo Design,Mobile App,All Project">
+                    <div class="thumbnail-inner">
+                        <div class="thumbnail">
+                           <img src="assets/images/portfolio/dp-portfolio-05.jpg" alt="Portfolio Images">
+                       </div>
+                   </div>
+                    <div class="content">
+                       <div class="inner">
+                          <p>App Development</p>
+                          <h4>The service provide for designer</h4>
+                       </div>
+                   </div>
+                </div>
+                <div class="gallery-filter-item filtr-item col-lg-4 col-md-6 col-12" data-category=" Web Design, Logo Design,Mobile App">
+                    <div class="thumbnail-inner">
+                        <div class="thumbnail">
+                           <img src="assets/images/portfolio/dp-portfolio-06.jpg" alt="Portfolio Images">
+                       </div>
+                   </div>
+                    <div class="content">
+                       <div class="inner">
+                          <p>App Development</p>
+                          <h4>The service provide for designer</h4>
+                       </div>
+                   </div>
+                </div>
             </div>
-          </div>
         </div>
-    </div> 
- </div>
-
+    </div>
+</div>
   <!---==Filterzr End==--->
+
+  <!---==Team Start==--->
+  <div class="rn-team">
+      <div class="container">
+          <div class="row">
+            <div class="section-title text-center">
+                <h2 class="title">Our Gallery</h2>
+                <p>
+                    There are many variations of passages of Lorem Ipsum available, <br /> but the
+                     majority have suffered alteration.
+                </p>
+              </div>
+          </div>
+          <div class="row">
+              <!-- Single Team -->
+              <div class="col-lg-4 col-md-6 col-12">
+                  <div class="team">
+                      <div class="thumbnail">
+                          <img src="assets/images/team/team-01.jpg" alt="">
+                      </div>
+                      <div class="content">
+                          <h4 class="title">Jone Due</h4>
+                          <p class="description">
+                              Sr.Web Development
+                          </p>
+                      </div>
+                      <div class="social-icon">
+                          <ul>
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <!-- Single Team -->
+
+              <!-- Single Team -->
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="team">
+                    <div class="thumbnail">
+                        <img src="assets/images/team/team-02.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h4 class="title">Jone Due</h4>
+                        <p class="description">
+                            Sr.Web Development
+                        </p>
+                    </div>
+                    <div class="social-icon">
+                        <ul>
+                          <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                          <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                          <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+              <!-- Single Team -->
+
+              <!-- Single Team -->
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="team">
+                    <div class="thumbnail">
+                        <img src="assets/images/team/team-03.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h4 class="title">Jone Due</h4>
+                        <p class="description">
+                            Sr.Web Development
+                        </p>
+                    </div>
+                    <div class="social-icon">
+                        <ul>
+                          <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                          <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                          <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+              <!-- Single Team -->
+
+              <!-- Single Team -->
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="team">
+                    <div class="thumbnail">
+                        <img src="assets/images/team/team-04.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h4 class="title">Jone Due</h4>
+                        <p class="description">
+                            Sr.Web Development
+                        </p>
+                    </div>
+                    <div class="social-icon">
+                        <ul>
+                          <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                          <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                          <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+              <!-- Single Team -->
+
+              <!-- Single Team -->
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="team">
+                    <div class="thumbnail">
+                        <img src="assets/images/team/team-05.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h4 class="title">Jone Due</h4>
+                        <p class="description">
+                            Sr.Web Development
+                        </p>
+                    </div>
+                    <div class="social-icon">
+                        <ul>
+                          <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                          <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                          <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+              <!-- Single Team -->
+
+              <!-- Single Team -->
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="team">
+                    <div class="thumbnail">
+                        <img src="assets/images/team/team-12.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h4 class="title">Jone Due</h4>
+                        <p class="description">
+                            Sr.Web Development
+                        </p>
+                    </div>
+                    <div class="social-icon">
+                        <ul>
+                          <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                          <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                          <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+              <!-- Single Team -->
+          </div>
+  </div>
+  <!---==Team End==--->
 
 
 
@@ -541,4 +733,4 @@
 <!--==Main js End==-->
 
 </body>
-</html>
+</html> 

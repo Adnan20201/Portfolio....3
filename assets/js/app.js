@@ -6,8 +6,6 @@ Index All JS
 -----------------------
         01. Wow Active
         02. Counter Up
-        03. Feature Icon Activation
-        04. Youtub Popup 
         05. Slick Activation            
         06. Paralax Window
         07. LightBox
@@ -20,15 +18,14 @@ Index All JS
 $(function () {
     'use strict';
 
-    $('.portfolio-slider').slick({
+    $('.slider-portfolio').slick({
         prevArrow:'<i class="fas fa-chevron-left banner-arrow1 left "></i>',
         nextArrow:'<i class="fas fa-chevron-right banner-arrow1 right"></i>',
-        slidesToShow:1,
+        slidesToShow:3,
         slidesToScroll: 1, 
         autoplay:true,
         autoplaySpeed:500,
         arrows: false,
-        fade:true,
         dots: true,
         cssEase:'linear',
     });
@@ -38,4 +35,27 @@ $(function () {
         delay: 10,
         time: 1000
     });
+
+   //Filterzir js
+    $(".gallery-filter-container").filterizr();
+
+    //Slider
+    $('. blog-slider').slick({
+        prevArrow:'<i class="fas fa-chevron-left banner-arrow1 left "></i>',
+        nextArrow:'<i class="fas fa-chevron-right banner-arrow1 right"></i>',
+        slidesToShow:2,
+        slidesToScroll: 1, 
+        autoplay:true,
+        autoplaySpeed:500,
+        arrows: true,
+        fade:true,
+        dots: true,
+        cssEase:'linear',
+    });
+
+
+    $('.blog-slider').slick({
+        
+      });
+    
 })
