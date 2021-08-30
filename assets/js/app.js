@@ -46,7 +46,7 @@ $(function () {
         slidesToShow:3,
         slidesToScroll: 1, 
         autoplaySpeed:500,
-        arrows: false,
+        arrows: true,
         fade:true,
         dots: true,
         cssEase:'linear',
