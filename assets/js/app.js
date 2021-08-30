@@ -18,7 +18,7 @@ Index All JS
 $(function () {
     'use strict';
 
-    $('.slider-portfolio').slick({
+    $('.portfolio-slider').slick({
         prevArrow:'<i class="fas fa-chevron-left banner-arrow1 left "></i>',
         nextArrow:'<i class="fas fa-chevron-right banner-arrow1 right"></i>',
         slidesToShow:3,
@@ -40,12 +40,11 @@ $(function () {
     $(".gallery-filter-container").filterizr();
 
     //Slider
-    $('.slider-blog').slick({
+    $('.blog-slider').slick({
         prevArrow:'<i class="fas fa-chevron-left banner-arrow1 left "></i>',
         nextArrow:'<i class="fas fa-chevron-right banner-arrow1 right"></i>',
         slidesToShow:3,
         slidesToScroll: 1, 
-        autoplay:true,
         autoplaySpeed:500,
         arrows: false,
         fade:true,
