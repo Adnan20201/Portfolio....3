@@ -46,12 +46,29 @@ $(function () {
         slidesToShow:3,
         slidesToScroll: 1, 
         autoplaySpeed:500,
-        arrows: true,
-        fade:true,
+        arrows: false,
         dots: true,
         cssEase:'linear',
     });
 
-
+    //BackToTop
+    $(window).on('scroll',function (){
+        var winScroll = $(this).scrollTop();
+        if(winScroll > 300){
+            $('#backToTop').fadeIn(1000)
+        } else{
+            $('#backToTop').fadeOut(1000)
+        }
+    });
     
+    $('#backToTop').on('click',function (){
+        $('html,body').animate({
+            scrollTop:0
+        },500);
+    })
+
+
+
+
+
 })

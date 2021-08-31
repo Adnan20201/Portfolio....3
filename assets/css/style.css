@@ -237,8 +237,12 @@ img{
     position: relative;
     padding: 60px 40px;
     box-shadow: 0 10px 25px 10px rgb(0,0, 0, 10%);
-    border-radius: 6px;
+    border-radius: 10px;
     z-index: 2;
+    transition: all linear .4s;
+}
+.rn-service .single-service:hover a{
+    transform: translateY(-8px);
 }
 .rn-service .single-service a::before{
     position: absolute;
@@ -1179,6 +1183,7 @@ ul.social-share li a {
     bottom: 70px;
     font-size: 17px;
     cursor: pointer;
+    display: none;
     
   }
   /*flaticon Icon End*/
